@@ -16,6 +16,6 @@ deployment:
   hub:
     branch: master
     commands:
-      - docker login -e "" -u "techopsdevops" -p "/5c+JPJnQqa4t+Maed=vDj2hTcxaqZN="
+      - docker login -u techopsdevops -p /5c+JPJnQqa4t+Maed=vDj2hTcxaqZN=
       - docker tag nodetest201701 techopsdevops.azurecr.io/nodetest201701
       - docker push techopsdevops.azurecr.io/nodetest201701
